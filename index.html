@@ -7,7 +7,10 @@
 </head>
 <body>
 <a-scene>
+    <a-entity camera="userHeight: 1.6" universal-controls="movementAcceleration:20" kinematic-body="radius:0.25"></a-entity>
     <a-collada-model src="home.dae" scale="0.01 0.01 0.01"></a-collada-model>
+    <a-plane position="0 0 -4" rotation="-90 0 0" width="40" height="40" visible="false" static-body></a-plane>
+    <a-box position="5.954 0.354 0.780" depth="0.460" height="0.750" width="1.190" visible="false" static-body></a-box>
 </a-scene>
 </body>
 </html>
